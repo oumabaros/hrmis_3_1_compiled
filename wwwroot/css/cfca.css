@@ -1,0 +1,66 @@
+﻿.content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#example thead .sorting_asc {
+    background-image: url(http://www.miankoutu.com/uploadfiles/2015-9-24/2015924141740312.png);
+    background-size: 20px 20px;
+}
+
+#example thead .sorting_desc {
+    background-image: url(http://www.miankoutu.com/uploadfiles/2015-9-24/2015924141733340.png);
+    background-size: 20px 20px;
+}
+
+#example .sorting {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sort_both.svg/1000px-Sort_both.svg.png);
+    background-size: 20px 10px;
+}
+
+* {
+    font-size: 9px;
+    line-height: 1;
+}
+
+#profileModal {
+    top: 5%;
+    right: 50%;
+    outline: none;
+    overflow: hidden;
+}
+.prof-dialog {
+    width: 280px;
+    height: 400px !important;
+    position: fixed;
+    top: 0px;
+    right: 2px;
+    margin: 2px;
+}
+.modal-content {
+    /* 80% of window height */
+    height: 60%;
+    
+}
+
+.modal-header {
+    background-color: #337AB7;
+    /*padding: 16px 16px;*/
+    color: #FFF;
+    border-bottom: 2px dashed #337AB7;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+    background-color: #CFF5FF;
+}
+.dataTables_filter input {
+    width: 30px
+}
+.table > tbody > tr > td {
+    vertical-align: bottom;
+}
